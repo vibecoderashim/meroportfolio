@@ -1,0 +1,9 @@
+# Robots.txt for https://ashimshrestha.info.np/
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ashimshrestha.info.np/
+
+# Sitemap Location
+Sitemap: https://ashimshrestha.info.np/sitemap.xml
