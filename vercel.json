@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "buildCommand": "NITRO_PRESET=node-server vite build && node ./scripts/build-post.js",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
